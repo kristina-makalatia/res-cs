@@ -1,0 +1,130 @@
+/* header styles */
+.container-header {
+    max-width: 1220px;
+    width: 90%;
+    background-color: lightblue;
+    margin:0 auto;
+    position: relative;
+    height: 65px;
+}
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-block-header {
+    display: flex;
+    align-items: center;
+}
+.constulting {
+    width: 184px;
+    height: 65px;
+    background-color: #6B77E5;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+.ul-items {
+    display: flex;
+    max-width: 601px;
+    width: 100%;
+    justify-content: space-between;
+}
+.header-wraper {
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    z-index: 50;
+
+}
+body {
+    padding-top: 65px;
+}
+.burger-bar {
+    display: none;
+    color: red;
+    font-size: 30px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+
+/* px sizes */
+.wraper {
+    max-width: 1180px;
+    width: 100%;
+    background-color: lightslategray;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.fb-icon {
+    color: blue;
+    font-size: 30px;
+}
+.fa-square-instagram {
+    color: red;
+}
+
+
+
+/* section responsive practice */
+.main-wraper {
+    max-width: 1179px;
+    width: 95%;
+    margin: 0 auto;
+}
+.wraper-flex {
+    display: flex;
+    column-gap: 20px;
+}
+.left-block {
+    width: 779px;
+}
+.right-block {
+    width: 380px;
+    display: flex;
+    row-gap: 23px;
+    flex-direction: column;
+}
+.block {
+    height: 280px;
+    border: 2px solid #000;
+}
+.block img {
+    width: 100%;
+}
+.left-element img {
+    width: 100%;
+}
+
+
+/* new h.w section practice */
+.section-bg {
+    background-color: #000;
+    padding: 96px 0;
+}
+.container {
+    max-width: 1140px;
+    width: 95%;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    gap: 64px 133px;
+    align-items: center;
+}
+.block-left {
+    width: 503.5px;
+}
+.block-left img {
+    width: 100%;
+}
+.block-right {
+    width: 503.5px;
+    color: #fff;
+}
